@@ -15,9 +15,9 @@
       <p class="text-gray-800 mb-8 max-w-2xl mx-auto">
         Lade dir einfach unseren Aufnahmeantrag herunter, fülle ihn aus und schicke ihn uns per E-Mail oder wirf ihn am Clubhaus ein. Wir freuen uns auf dich!
       </p>
-      <a href="/downloads/TCF_Aufnahmeantrag_2025.pdf" target="_blank" class="inline-flex items-center px-8 py-4 border border-transparent text-lg font-bold rounded-xl shadow-sm text-white bg-tennis-clay hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-tennis-clay transition-all">
-        <svg class="mr-3 -ml-1 h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-        Aufnahmeantrag als PDF herunterladen
+      <a href="/downloads/TCF_Aufnahmeantrag_2025.pdf" target="_blank" class="inline-flex flex-col sm:flex-row items-center px-4 sm:px-8 py-3 sm:py-4 border border-transparent text-base sm:text-lg font-bold rounded-xl shadow-sm text-white bg-tennis-clay hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-tennis-clay transition-all gap-2 text-center">
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+        <span>Aufnahmeantrag PDF Download</span>
       </a>
     </div>
 
@@ -45,24 +45,24 @@
       
       <div class="px-6 pt-6 pb-8 sm:p-10 bg-white">
         <ul class="space-y-4">
-          <li class="flex items-center justify-between p-4 bg-gray-50 rounded-xl border border-gray-100">
+          <li class="flex flex-col sm:flex-row sm:items-center justify-between p-4 bg-gray-50 rounded-xl border border-gray-100 gap-2 sm:gap-0">
             <div>
               <p class="font-bold text-gray-900 text-lg">1. Erwachsene</p>
             </div>
-            <div class="text-xl font-extrabold text-tennis-green">92 €</div>
+            <div class="text-xl font-extrabold text-tennis-green sm:text-right">92 €</div>
           </li>
-          <li class="flex items-center justify-between p-4 bg-gray-50 rounded-xl border border-gray-100">
+          <li class="flex flex-col sm:flex-row sm:items-center justify-between p-4 bg-gray-50 rounded-xl border border-gray-100 gap-2 sm:gap-0">
             <div>
               <p class="font-bold text-gray-900 text-lg">2. Schüler, Auszubildende und Studenten</p>
               <p class="text-sm text-gray-500">ab vollendetem 18. bis max. 27. Lebensjahr</p>
             </div>
-            <div class="text-xl font-extrabold text-tennis-green">46 €</div>
+            <div class="text-xl font-extrabold text-tennis-green sm:text-right">46 €</div>
           </li>
-          <li class="flex items-center justify-between p-4 bg-gray-50 rounded-xl border border-gray-100">
+          <li class="flex flex-col sm:flex-row sm:items-center justify-between p-4 bg-gray-50 rounded-xl border border-gray-100 gap-2 sm:gap-0">
             <div>
               <p class="font-bold text-gray-900 text-lg">3. Kinder, Jugendliche und Passive</p>
             </div>
-            <div class="text-xl font-extrabold text-tennis-green">46 €</div>
+            <div class="text-xl font-extrabold text-tennis-green sm:text-right">46 €</div>
           </li>
         </ul>
       </div>

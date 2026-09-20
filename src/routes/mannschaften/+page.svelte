@@ -43,12 +43,12 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           {#each teams as team}
             <!-- Team Card -->
-            <div class="flex items-center justify-between p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:border-tennis-sand transition-colors">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:border-tennis-sand transition-colors gap-4 sm:gap-0">
               <div>
                 <h3 class="text-xl font-bold text-gray-900">{team.name}</h3>
                 <p class="text-gray-500">{team.format}</p>
               </div>
-              <a href="https://htv.liga.nu/cgi-bin/WebObjects/nuLigaTENDE.woa/wa/clubTeams?club=25039" target="_blank" rel="noopener noreferrer" class="text-tennis-clay hover:text-tennis-green font-medium flex items-center">
+              <a href="https://htv.liga.nu/cgi-bin/WebObjects/nuLigaTENDE.woa/wa/clubTeams?club=25039" target="_blank" rel="noopener noreferrer" class="text-tennis-clay hover:text-tennis-green font-medium flex items-center self-start sm:self-auto">
                 HTV-Tabelle
                 <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
               </a>
