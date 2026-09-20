@@ -1,14 +1,15 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   const tcfLinks = [
     { title: "Courtbooking", url: "https://tcf77.courtbooking.de/login.php?standard=true", target: "_blank", desc: "Unser Online-Platzbuchungssystem" },
-    { title: "Buchungs-Anleitung: App", url: "/downloads/ManualBookingSmartphoneApp.pdf", target: "_blank", desc: "Anleitung zur Nutzung der Smartphone-App" },
-    { title: "Buchungs-Anleitung: Web", url: "/downloads/ManualBookingWebbrowser.pdf", target: "_blank", desc: "Anleitung zur Nutzung im Webbrowser" },
-    { title: "TCF FAQ", url: "/downloads/FaqTcFroschhausen.pdf", target: "_blank", desc: "Häufig gestellte Fragen" },
-    { title: "Regeln zur Platzpflege", url: "/downloads/RulesOnForCleanTennisCourts.pdf", target: "_blank", desc: "Wichtige Hinweise zur Instandhaltung der Plätze" },
-    { title: "Spiel- und Platzordnung", url: "/downloads/TCFPlayRules.pdf", target: "_blank", desc: "Unsere verbindlichen Verhaltensregeln auf der Anlage" },
-    { title: "Jugendtennis-Fibel", url: "/downloads/TCFChildrenTennis.pdf", target: "_blank", desc: "Alles Wichtige rund um das Kindertennis" },
-    { title: "Vereinssatzung", url: "/downloads/TCFClubRules.pdf", target: "_blank", desc: "Die rechtliche Grundlage unseres Vereins" },
-    { title: "Aufnahmeantrag", url: "/downloads/TCF_Aufnahmeantrag_2025.pdf", target: "_blank", desc: "Antrag auf Mitgliedschaft" },
+    { title: "Buchungs-Anleitung: App", url: `${base}/downloads/ManualBookingSmartphoneApp.pdf`, target: "_blank", desc: "Anleitung zur Nutzung der Smartphone-App" },
+    { title: "Buchungs-Anleitung: Web", url: `${base}/downloads/ManualBookingWebbrowser.pdf`, target: "_blank", desc: "Anleitung zur Nutzung im Webbrowser" },
+    { title: "TCF FAQ", url: `${base}/downloads/FaqTcFroschhausen.pdf`, target: "_blank", desc: "Häufig gestellte Fragen" },
+    { title: "Regeln zur Platzpflege", url: `${base}/downloads/RulesOnForCleanTennisCourts.pdf`, target: "_blank", desc: "Wichtige Hinweise zur Instandhaltung der Plätze" },
+    { title: "Spiel- und Platzordnung", url: `${base}/downloads/TCFPlayRules.pdf`, target: "_blank", desc: "Unsere verbindlichen Verhaltensregeln auf der Anlage" },
+    { title: "Jugendtennis-Fibel", url: `${base}/downloads/TCFChildrenTennis.pdf`, target: "_blank", desc: "Alles Wichtige rund um das Kindertennis" },
+    { title: "Vereinssatzung", url: `${base}/downloads/TCFClubRules.pdf`, target: "_blank", desc: "Die rechtliche Grundlage unseres Vereins" },
+    { title: "Aufnahmeantrag", url: `${base}/downloads/TCF_Aufnahmeantrag_2025.pdf`, target: "_blank", desc: "Antrag auf Mitgliedschaft" },
   ];
 
   const htvLinks = [
@@ -81,3 +82,4 @@
     </div>
   </div>
 </div>
+
