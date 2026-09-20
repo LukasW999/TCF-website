@@ -21,7 +21,7 @@
         Wir sind dein familienfreundlicher Tennisverein in Froschhausen. Ob Anfänger, Hobbyspieler oder ambitionierter Turnierspieler – bei uns findest du die passende Gemeinschaft auf und neben dem Platz.
       </p>
       
-      <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:justify-start md:mx-0 sm:flex-wrap gap-4">
+      <div class="mt-5 max-w-md mx-auto flex flex-col sm:flex-row sm:justify-center md:justify-start md:mx-0 sm:flex-wrap gap-4">
         <div class="rounded-xl shadow w-full sm:w-auto">
           <a href="/mitgliedschaft" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-white bg-tennis-clay hover:bg-opacity-90 md:py-4 md:text-lg transition-all">
             Mitglied werden
