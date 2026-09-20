@@ -52,6 +52,14 @@
             [Adresse des Verantwortlichen]
           </p>
         </section>
+
+        <section>
+          <h2 class="text-2xl font-bold text-gray-900 mb-3 mt-8">Design & Entwicklung</h2>
+          <p class="leading-relaxed">
+            Lukas Wenzel<br />
+            E-Mail: <a href="mailto:lukas.wenzel@mail.de" class="text-tennis-clay hover:text-tennis-green">lukas.wenzel@mail.de</a>
+          </p>
+        </section>
       </div>
 
     </div>
