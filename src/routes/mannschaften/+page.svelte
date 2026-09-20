@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   const teams = [
     { name: "Junioren U12", format: "(4er)" },
     { name: "Gemischt U15", format: "(4er)" },
@@ -25,7 +26,7 @@
         <p class="text-xl text-gray-600">Entdecke unsere aktiven Teams im HTV-Ligabetrieb. Vom ambitionierten Leistungssport bis zum geselligen Breitensport.</p>
       </div>
       <div>
-        <img src="/media/WinnerMenClubChampionchip.png" alt="Herren Clubmeister" class="rounded-3xl shadow-lg object-cover w-full h-[350px]" />
+        <img src="{base}/media/WinnerMenClubChampionchip.png" alt="Herren Clubmeister" class="rounded-3xl shadow-lg object-cover w-full h-[350px]" />
       </div>
     </div>
 
@@ -66,3 +67,4 @@
     </div>
   </div>
 </div>
+

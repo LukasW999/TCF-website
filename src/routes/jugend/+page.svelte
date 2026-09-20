@@ -1,3 +1,7 @@
+<script>
+  import { base } from '$app/paths';
+</script>
+
 <svelte:head>
   <title>Jugend | TCF77</title>
 </svelte:head>
@@ -12,7 +16,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
       <div>
         <img 
-          src="/media/YouthWinners.jpeg" 
+          src="{base}/media/YouthWinners.jpeg" 
           alt="Jugend Sieger" 
           class="rounded-3xl shadow-lg object-cover w-full h-[400px]"
         />
@@ -100,3 +104,4 @@
 
   </div>
 </div>
+

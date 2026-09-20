@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   const currentYear = new Date().getFullYear();
 </script>
 
@@ -19,10 +20,10 @@
       <div>
         <h3 class="text-lg font-semibold tracking-wider uppercase mb-4 text-tennis-sand">Schnellzugriff</h3>
         <ul class="space-y-2">
-          <li><a href="/mitgliedschaft" class="text-sm text-gray-300 hover:text-white transition-colors">Mitglied werden</a></li>
+          <li><a href="{base}/mitgliedschaft" class="text-sm text-gray-300 hover:text-white transition-colors">Mitglied werden</a></li>
           <li><a href="https://tcf77.courtbooking.de/login.php?standard=true" target="_blank" rel="noopener noreferrer" class="text-sm text-gray-300 hover:text-white transition-colors">Platz buchen</a></li>
-          <li><a href="/infos" class="text-sm text-gray-300 hover:text-white transition-colors">HTV & Infos</a></li>
-          <li><a href="/jugend" class="text-sm text-gray-300 hover:text-white transition-colors">Jugendtraining</a></li>
+          <li><a href="{base}/infos" class="text-sm text-gray-300 hover:text-white transition-colors">HTV & Infos</a></li>
+          <li><a href="{base}/jugend" class="text-sm text-gray-300 hover:text-white transition-colors">Jugendtraining</a></li>
         </ul>
       </div>
 
@@ -30,9 +31,9 @@
       <div>
         <h3 class="text-lg font-semibold tracking-wider uppercase mb-4 text-tennis-sand">Rechtliches</h3>
         <ul class="space-y-2">
-          <li><a href="/impressum" class="text-sm text-gray-300 hover:text-white transition-colors">Impressum</a></li>
-          <li><a href="/datenschutz" class="text-sm text-gray-300 hover:text-white transition-colors">Datenschutz</a></li>
-          <li><a href="/infos" class="text-sm text-gray-300 hover:text-white transition-colors">Satzung</a></li>
+          <li><a href="{base}/impressum" class="text-sm text-gray-300 hover:text-white transition-colors">Impressum</a></li>
+          <li><a href="{base}/datenschutz" class="text-sm text-gray-300 hover:text-white transition-colors">Datenschutz</a></li>
+          <li><a href="{base}/infos" class="text-sm text-gray-300 hover:text-white transition-colors">Satzung</a></li>
         </ul>
       </div>
     </div>
@@ -44,3 +45,4 @@
     </div>
   </div>
 </footer>
+

@@ -1,21 +1,22 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   const boardMembers = [
-    { name: "Claudio Sanzone", role: "Vorsitzender", email: "claudio.sanzone@tcf77.de", image: "/media/firstPresident.png" },
-    { name: "Jadranka Herburg", role: "Vorsitzende", email: "Jadi.Herburg@tcf77.de", image: "/media/secondPresident.jpg" },
-    { name: "Claudia Süßmann", role: "Vorsitzende", email: "claudia.suessmann@tcf77.de", image: "/media/ThirdPresident.jpg" },
-    { name: "Hilde Rothenberger", role: "Vorstand Finanzen", email: "schatzmeister@tcf77.de", image: "/media/ChiefFinancialOfficer.jpg" },
-    { name: "Michael Stier", role: "Vorstand Sport", email: "vorstand.sport@tcf77.de", image: "/media/ChiefSportOfficer.jpg" },
-    { name: "Ira Wenzel", role: "Vorstand Jugend", email: "vorstand.jugend@tcf77.de", image: "/media/ChiefYouthOfficer.jpg" },
-    { name: "Jörg Guse", role: "Vorstand Vereinsanlage", email: "vorstand.vereinsanlage@tcf77.de", image: "/media/BoardMember.jpg" },
-    { name: "Britta Kracun", role: "Schriftführerin", email: "schriftfuehrer@tcf77.de", image: "/media/secretary.jpg" },
-    { name: "Nadine Deller", role: "Beisitzerin", email: "nadine.deller@tcf77.de", image: "/media/placeholderForBoardMembers.jpg" },
-    { name: "Christian Krawutschke", role: "Beisitzer", email: "christian.krawutschke@tcf77.de", image: "/media/placeholderForBoardMembers.jpg" }
+    { name: "Claudio Sanzone", role: "Vorsitzender", email: "claudio.sanzone@tcf77.de", image: `${base}/media/firstPresident.png` },
+    { name: "Jadranka Herburg", role: "Vorsitzende", email: "Jadi.Herburg@tcf77.de", image: `${base}/media/secondPresident.jpg` },
+    { name: "Claudia Süßmann", role: "Vorsitzende", email: "claudia.suessmann@tcf77.de", image: `${base}/media/ThirdPresident.jpg` },
+    { name: "Hilde Rothenberger", role: "Vorstand Finanzen", email: "schatzmeister@tcf77.de", image: `${base}/media/ChiefFinancialOfficer.jpg` },
+    { name: "Michael Stier", role: "Vorstand Sport", email: "vorstand.sport@tcf77.de", image: `${base}/media/ChiefSportOfficer.jpg` },
+    { name: "Ira Wenzel", role: "Vorstand Jugend", email: "vorstand.jugend@tcf77.de", image: `${base}/media/ChiefYouthOfficer.jpg` },
+    { name: "Jörg Guse", role: "Vorstand Vereinsanlage", email: "vorstand.vereinsanlage@tcf77.de", image: `${base}/media/BoardMember.jpg` },
+    { name: "Britta Kracun", role: "Schriftführerin", email: "schriftfuehrer@tcf77.de", image: `${base}/media/secretary.jpg` },
+    { name: "Nadine Deller", role: "Beisitzerin", email: "nadine.deller@tcf77.de", image: `${base}/media/placeholderForBoardMembers.jpg` },
+    { name: "Christian Krawutschke", role: "Beisitzer", email: "christian.krawutschke@tcf77.de", image: `${base}/media/placeholderForBoardMembers.jpg` }
   ];
 
   const trainers = [
-    { name: "Vorname Nachname", role: "Trainer Jugend & Erwachsene", image: "/media/placeholderForBoardMembers.jpg" },
-    { name: "Vorname Nachname", role: "Trainer Jugend & Erwachsene", image: "/media/placeholderForBoardMembers.jpg" },
-    { name: "Vorname Nachname", role: "Trainer Jugend & Erwachsene", image: "/media/placeholderForBoardMembers.jpg" }
+    { name: "Vorname Nachname", role: "Trainer Jugend & Erwachsene", image: `${base}/media/placeholderForBoardMembers.jpg` },
+    { name: "Vorname Nachname", role: "Trainer Jugend & Erwachsene", image: `${base}/media/placeholderForBoardMembers.jpg` },
+    { name: "Vorname Nachname", role: "Trainer Jugend & Erwachsene", image: `${base}/media/placeholderForBoardMembers.jpg` }
   ];
 </script>
 
@@ -32,7 +33,7 @@
 
     <!-- Drone Image -->
     <div class="mb-20 rounded-3xl overflow-hidden shadow-xl border border-gray-100">
-      <img src="/media/TCNFromHumansDroneShot.png" alt="Mitglieder bilden Vereinsnamen aus der Vogelperspektive" class="w-full h-auto object-cover max-h-[600px] object-center" />
+      <img src="{base}/media/TCNFromHumansDroneShot.png" alt="Mitglieder bilden Vereinsnamen aus der Vogelperspektive" class="w-full h-auto object-cover max-h-[600px] object-center" />
     </div>
 
     <!-- About Section -->
@@ -98,3 +99,5 @@
     </div>
   </div>
 </div>
+
+

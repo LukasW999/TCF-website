@@ -1,3 +1,7 @@
+<script>
+  import { base } from '$app/paths';
+</script>
+
 <svelte:head>
   <title>Mitgliedschaft | TCF77</title>
 </svelte:head>
@@ -15,7 +19,7 @@
       <p class="text-gray-800 mb-8 max-w-2xl mx-auto">
         Lade dir einfach unseren Aufnahmeantrag herunter, fülle ihn aus und schicke ihn uns per E-Mail oder wirf ihn am Clubhaus ein. Wir freuen uns auf dich!
       </p>
-      <a href="/downloads/TCF_Aufnahmeantrag_2025.pdf" target="_blank" class="inline-flex flex-col sm:flex-row items-center px-4 sm:px-8 py-3 sm:py-4 border border-transparent text-base sm:text-lg font-bold rounded-xl shadow-sm text-white bg-tennis-clay hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-tennis-clay transition-all gap-2 text-center">
+      <a href="{base}/downloads/TCF_Aufnahmeantrag_2025.pdf" target="_blank" class="inline-flex flex-col sm:flex-row items-center px-4 sm:px-8 py-3 sm:py-4 border border-transparent text-base sm:text-lg font-bold rounded-xl shadow-sm text-white bg-tennis-clay hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-tennis-clay transition-all gap-2 text-center">
         <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
         <span>Aufnahmeantrag PDF Download</span>
       </a>
@@ -106,3 +110,4 @@
 
   </div>
 </div>
+
