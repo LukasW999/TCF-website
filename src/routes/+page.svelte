@@ -1,3 +1,7 @@
+<script>
+  import { base } from '$app/paths';
+</script>
+
 <svelte:head>
   <title>TCF77 - Tennisclub Froschhausen</title>
 </svelte:head>
@@ -5,7 +9,7 @@
 <section class="relative bg-tennis-green overflow-hidden">
   <div class="absolute inset-0">
     <img 
-      src="/media/DroneViewOnTenniscourt.jpg" 
+      src="{base}/media/DroneViewOnTenniscourt.jpg" 
       alt="Tennisplatz" 
       class="w-full h-full object-cover opacity-20"
     />
@@ -23,7 +27,7 @@
       
       <div class="mt-5 max-w-md mx-auto flex flex-col sm:flex-row sm:justify-center md:justify-start md:mx-0 sm:flex-wrap gap-4">
         <div class="rounded-xl shadow w-full sm:w-auto">
-          <a href="/mitgliedschaft" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-white bg-tennis-clay hover:bg-opacity-90 md:py-4 md:text-lg transition-all">
+          <a href="{base}/mitgliedschaft" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-white bg-tennis-clay hover:bg-opacity-90 md:py-4 md:text-lg transition-all">
             Mitglied werden
           </a>
         </div>
@@ -103,3 +107,4 @@
     </div>
   </div>
 </section>
+

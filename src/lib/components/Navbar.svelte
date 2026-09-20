@@ -1,16 +1,17 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   import { Menu, X } from 'lucide-svelte';
   import { page } from '$app/stores';
 
   let isOpen = false;
 
   const links = [
-    { href: '/', label: 'Startseite' },
-    { href: '/mitgliedschaft', label: 'Mitgliedschaft' },
-    { href: '/jugend', label: 'Jugend' },
-    { href: '/mannschaften', label: 'Mannschaften' },
-    { href: '/verein', label: 'Verein' },
-    { href: '/infos', label: 'Infos & HTV' }
+    { href: base || '/', label: 'Startseite' },
+    { href: `${base}/mitgliedschaft`, label: 'Mitgliedschaft' },
+    { href: `${base}/jugend`, label: 'Jugend' },
+    { href: `${base}/mannschaften`, label: 'Mannschaften' },
+    { href: `${base}/verein`, label: 'Verein' },
+    { href: `${base}/infos`, label: 'Infos & HTV' }
   ];
 
   function toggleMenu() {
@@ -22,8 +23,8 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between h-20">
       <div class="flex items-center">
-        <a href="/" class="flex-shrink-0 flex items-center">
-          <img src="/media/tcflogosmall.png" alt="TCF Logo" class="w-12 h-12 object-contain mr-3" />
+        <a href="{base || '/'}" class="flex-shrink-0 flex items-center">
+          <img src="{base}/media/tcflogosmall.png" alt="TCF Logo" class="w-12 h-12 object-contain mr-3" />
           <span class="font-bold text-xl text-tennis-green hidden sm:block">Tennisclub Froschhausen</span>
         </a>
       </div>
@@ -77,3 +78,5 @@
     </div>
   {/if}
 </header>
+
+
